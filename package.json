@@ -1,0 +1,17 @@
+{
+  "name": "joke-app",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "parcel client/index.html --port 1234",
+    "start": "node server/index.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "parcel": "^2.9.3"
+  }
+}
